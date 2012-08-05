@@ -12,6 +12,7 @@ function love.load()
 end
 
 function love.update(dt)
+  -- TODO: move game quit to external menu function
   -- quit game via esc key
   if love.keyboard.isDown("escape") then
     love.event.quit()
